@@ -1,0 +1,7 @@
+{
+  "name": "T1_1_Irene_Villa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
