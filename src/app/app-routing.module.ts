@@ -19,6 +19,18 @@ const routes: Routes = [
     path: 'pag-tabs',
     loadChildren: () => import('./pag-tabs/pag-tabs.module').then( m => m.PagTabsPageModule)
   },
+  {
+    path: 'primero-dam',
+    loadChildren: () => import('./primero-dam/primero-dam.module').then( m => m.PrimeroDamPageModule)
+  },
+  {
+    path: 'segundo-dam',
+    loadChildren: () => import('./segundo-dam/segundo-dam.module').then( m => m.SegundoDamPageModule)
+  },
+  {
+    path: 'fct',
+    loadChildren: () => import('./fct/fct.module').then( m => m.FctPageModule)
+  },
 ];
 
 @NgModule({
