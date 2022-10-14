@@ -1,15 +1,32 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>PagTabs</ion-title>
+    <ion-title>Clases</ion-title>
     <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
+      <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
   
 </ion-header>
-  <ion-button routerLink = '/primero-dam'>1º DAM</ion-button>
-  <ion-button routerLink = '/segundo-dam'>2º DAM</ion-button>
-  <ion-button routerLink = '/fct'>FCT</ion-button>
-<ion-content>
   
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab-bar tab="bar"  color="primary">
+      <ion-tab-button tab="dam1">
+        <ion-icon name="happy-outline"></ion-icon>
+        <ion-label>1º DAM</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="dam2"  color="primary">
+        <ion-icon name="skull-outline"></ion-icon>
+        <ion-label>2º DAM</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="fct"  color="primary">
+        <ion-icon name="construct-outline"></ion-icon>
+        <ion-label>FCT</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>
+

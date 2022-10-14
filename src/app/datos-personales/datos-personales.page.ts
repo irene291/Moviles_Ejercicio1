@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatosPersonalesPage implements OnInit {
 
+ 
+  variableNombre='';
+  variableLocalidad='';
+  variableEstudios='';
+  variableEmail='';
+  variableContrasena=''
+
   constructor() { }
 
   ngOnInit() {
